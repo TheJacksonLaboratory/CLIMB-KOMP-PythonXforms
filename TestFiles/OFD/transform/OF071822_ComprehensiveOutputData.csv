@@ -1,0 +1,149 @@
+VENDOR INFORMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Omnitech Electronics Inc.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+5090 Trabue Road,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Columbus Ohio 43228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+www.Omnitech-Electronics.com,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VARIABLE NAME,VARIABLE DESCRIPTION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Experiment,The name of the relevant Experiment (this value is user created at acquisition time),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cage,The name of the relevant Cage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Subject ID,The name of the relevant Subject ID (this value is user created at acquisition time),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Batch,The name of the relevant Batch,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase,The name of the relevant Phase (this value is user created at acquisition time),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sample,The name of the relevant Sample,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Start Time,Represents the time at which the experiment began (as expressed in the time zone in which the experiment was created).,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Duration,Represents time elapsed since the start of the experiment.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total Distance,The total distance that the subject has traveled. This variable defines the subject's location as the centroid (center of mass) of the subject.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total Distance X-Axis,The total distance that the subject has traveled in one dimension (X-Axis). This variable defines the subject's location as the centroid (center of mass) of the subject.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total Distance Y-Axis,The total distance that the subject has traveled in one dimension (Y-Axis). This variable defines the subject's location as the centroid (center of mass) of the subject.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Horizontal Activity Count,A count of sensor changes (beam breaks).,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Activity Count,Number of beam breaks while animal is ambulating. Does not include stereotypy behavior.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rest Time,The length of time that the subject spent at rest.  A resting period is defined as a period of inactivity greater than or equal to 1 second.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rest Episode Count,The total number of resting periods.  A resting period is defined as a period of inactivity greater than or equal to 1 second.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Movement Time,The length of time that the subject spent in activity. Activity is defined as a period in which ambulation or stereotypy occurred.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Movement Episode Count,The total number of locomotor episodes.  Episodes are separated by rest periods of at least 1 second.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Time,The length of time that the subject spent in ambulatory activity. Ambulatory activity is defined as a period in which ambulation occurred.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Trajectory Average,Cumulative average over the course of the sample based on the varying trajectories of an animal's ambulatory displacements.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Episode Count,The total number of ambulatory episodes. Episodes are separated by rest periods of at least 1 second.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stereotypy Time,The total amount of time that stereotypic behavior is exhibited. A break in stereotypy of 1 second or more is required to separate one stereotypic episode from the next.  If the animal breaks the same beam (or set of beams) repeatedly then the monitor considers that the animal is exhibiting stereotypy. This typically happens during grooming or head bobbing.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stereotypic Episode Count,This corresponds to the number of times that stereotypic behavior was observed in the animal. A break in stereotypy of 1 second or more is required to separate one stereotypic episode from the next.  If the animal breaks the same beam (or set of beams) repeatedly then the monitor considers that the animal is exhibiting stereotypy. This typically happens during grooming or head bobbing.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stereotypic Activity Count,The number of beam breaks due to stereotypic activity. If the animal breaks the same beam (or set of beams) repeatedly then the monitor considers that the animal is exhibiting stereotypy. This typically happens during grooming or head bobbing.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stereotypic Episode Activity Count,Number of beam breaks that occur during a period of stereotypic activity. If the animal breaks the same beam (or set of beams) repeatedly then the monitor considers that the animal is exhibiting stereotypy. This typically happens during grooming or head bobbing.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vertical Episode Count,This is incremented by 1 each time the animal rears.  The animal must go below the level of the vertical sensor for at least 1 second before the next rearing can be registered.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vertical Activity Count,Cumulative vertical beam breaks.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vertical Time,Time accumulated by the animal when breaking beams in the vertical layer. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Clockwise Revolutions,Counts the number of clockwise revolutions that the subject travels in an open field.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Counter-Clockwise Revolutions,Counts the number of counter-clockwise revolutions that the subject travels in an open field.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Episode Average Velocity,The mean of the average velocities for each ambulatory episode.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Episode Peak Average Velocity,The highest value of the mean velocities for each ambulatory episode.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ambulatory Episode Median Velocity,The median of velocities for each ambulatory episode.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Status,Indicates the status of the light during a sample (on or off).,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fan Status,Indicates whether the fan was ever 'off' during a sample.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EXPERIMENT NAME,CREATION DATE/TIME,USER NAME,COMMENT,DESCRIPTION,PHASE COUNT,BATCH COUNT,TOTAL RECORDINGS COUNT,ORDER BY BATCH,SUBJECT AGE UNIT,FIRST POKE AUTO START (Hole Poke),POST-CHECK,PRE-CHECK,INSERTION AUTO START,ENABLE SCHEDULED ECC EVENTS,SCHEDULE START OPTION,START SCHEDULE WITH LIGHTS ON,LIGHT INTENSITY,,,,,,,,,,,,,,,,
+OF071822,7/18/2022 8:12,Jade Kaplan,,,1,3,3,Yes,Months,No,No,No,No,No,Use Experiment Start Time,Yes,50,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EXPORT PRECISION,DISTANCE UNIT,SPEED UNIT,TIME UNIT,WEIGHT UNIT,SAMPLE DURATION (s),REST THRESHOLD (s),,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Centimeter,CentimetersPerSecond,Second,Gram,300,1,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EXPERIMENT,CAGE,SUBJECT ID,BATCH,PHASE,SAMPLE,START TIME,DURATION (s),TOTAL DISTANCE (cm),TOTAL DISTANCE X-AXIS (cm),TOTAL DISTANCE Y-AXIS (cm),HORIZONTAL ACTIVITY COUNT,AMBULATORY ACTIVITY COUNT,REST TIME (s),REST EPISODE COUNT,MOVEMENT TIME (s),MOVEMENT EPISODE COUNT,AMBULATORY TIME (s),AMBULATORY TRAJECTORY AVERAGE,AMBULATORY EPISODE COUNT,STEREOTYPY TIME (s),STEREOTYPIC EPISODE COUNT,STEREOTYPIC ACTIVITY COUNT,STEREOTYPIC EPISODE ACTIVITY COUNT,VERTICAL EPISODE COUNT,VERTICAL ACTIVITY COUNT,VERTICAL TIME (s),CLOCKWISE REVOLUTIONS,COUNTER-CLOCKWISE REVOLUTIONS,AMBULATORY EPISODE AVERAGE VELOCITY (cm/s),AMBULATORY EPISODE PEAK AVERAGE VELOCITY (cm/s),AMBULATORY EPISODE MEDIAN VELOCITY (cm/s),LIGHT STATUS,FAN STATUS
+OF071822,Cage 1,3524925,Batch 1,Phase 1,1,8:59:20 AM,300,758.73,249.24,205.74,976,919,105.03,59,194.97,59,23.04,57.2,4,9.05,25,57,437,23,34,8.91,0,2,8.99,22.1,9.61,On,On
+OF071822,Cage 1,3524925,Batch 1,Phase 1,2,9:04:20 AM,300,488.62,87.63,132.4,828,742,109.56,63,190.44,64,20.83,65.26,3,21.02,34,86,419,26,46,12.44,0,1,8.12,21.48,7.63,On,On
+OF071822,Cage 1,3524925,Batch 1,Phase 1,3,9:09:20 AM,300,596.14,136.84,154.94,823,763,108.87,64,191.13,64,20.32,52.44,5,11.73,27,60,329,28,50,10.05,2,2,8.08,17.26,12.79,On,On
+OF071822,Cage 1,3524925,Batch 1,Phase 1,4,9:14:20 AM,300,500.98,124.78,110.17,691,645,132.99,63,167.01,64,16.58,71.37,5,10.44,21,46,236,24,34,4.58,6,0,8.4,24.13,9.97,On,On
+OF071822,Cage 2,3524230,Batch 1,Phase 1,1,8:59:58 AM,300,811.55,263.84,230.19,1332,1245,73.45,49,226.55,50,29.62,47.58,4,12.16,32,87,652,24,36,9.88,3,3,8.42,21.64,13.3,On,On
+OF071822,Cage 2,3524230,Batch 1,Phase 1,2,9:04:58 AM,300,1048.24,280.35,269.24,1319,1245,56.44,35,243.56,36,32.27,59.91,6,14.13,29,74,628,37,70,19.78,2,3,10.62,17.13,19,On,On
+OF071822,Cage 2,3524230,Batch 1,Phase 1,3,9:09:58 AM,300,799.66,195.26,208.6,1187,1131,88.94,51,211.06,51,24.54,56.78,9,10.16,26,56,560,39,65,17.02,3,5,10.96,25.13,13.52,On,On
+OF071822,Cage 2,3524230,Batch 1,Phase 1,4,9:14:58 AM,300,848.35,290.83,215.58,1231,1138,97.67,56,202.33,57,26.33,50.74,1,13.73,38,93,615,41,89,25.01,2,3,11.12,23.75,15.96,On,On
+OF071822,Cage 3,3524256,Batch 1,Phase 1,1,9:00:24 AM,300,734.12,197.49,244.16,1555,1457,69.08,43,230.92,44,29.19,53.91,3,11.94,48,98,1008,27,46,13.05,2,1,11.02,28.96,15.98,On,On
+OF071822,Cage 3,3524256,Batch 1,Phase 1,2,9:05:24 AM,300,595.64,159.7,136.84,1354,1265,62.83,36,237.17,37,23.59,55.22,0,13.92,40,89,824,26,35,9.95,1,3,9.02,25.02,10.68,On,On
+OF071822,Cage 3,3524256,Batch 1,Phase 1,3,9:10:24 AM,300,521.26,131.76,124.46,1071,985,101.27,47,198.73,48,19.29,55.33,1,11.76,41,86,611,13,24,7.44,3,2,9.24,20.89,12.15,On,On
+OF071822,Cage 3,3524256,Batch 1,Phase 1,4,9:15:24 AM,300,642.37,169.55,158.75,1140,1071,78.3,45,221.7,46,24.08,49.41,1,10.47,30,69,571,17,25,4.53,2,4,9.1,20.11,11.56,On,On
+OF071822,Cage 4,3524474,Batch 1,Phase 1,1,9:01:04 AM,300,907.88,230.93,307.66,1326,1279,68.28,40,231.72,41,30.52,52.58,5,6.87,23,47,590,32,49,11.51,3,5,7.71,19.35,9.76,On,On
+OF071822,Cage 4,3524474,Batch 1,Phase 1,2,9:06:04 AM,300,627.33,162.24,122.87,1138,1079,89.81,51,210.19,52,20.72,45.37,2,10.89,28,59,533,39,65,18.49,5,2,9.18,20.98,16.26,On,On
+OF071822,Cage 4,3524474,Batch 1,Phase 1,3,9:11:04 AM,300,633.65,163.51,122.56,1168,1104,88.93,54,211.08,55,24.4,68.67,1,13.49,29,64,533,45,63,15.97,1,3,10.68,28.75,13.64,On,On
+OF071822,Cage 4,3524474,Batch 1,Phase 1,4,9:16:04 AM,300,511.61,92.71,132.08,1019,963,103.97,57,196.03,58,19.3,41.92,0,7.52,29,56,400,35,50,10.56,1,0,8.36,19.36,12.67,On,On
+OF071822,Cage 5,3524501,Batch 1,Phase 1,1,9:01:20 AM,300,975.35,232.09,379.41,1398,1336,56.31,36,243.69,37,30.24,51.98,3,9.39,25,62,667,25,45,14.1,3,4,9.96,23.03,14.96,On,On
+OF071822,Cage 5,3524501,Batch 1,Phase 1,2,9:06:20 AM,300,712.36,174.63,136.53,1442,1375,81.85,52,218.16,53,21.68,48.14,3,6.68,31,67,701,41,68,27.33,1,2,9.85,21.87,14.36,On,On
+OF071822,Cage 5,3524501,Batch 1,Phase 1,3,9:11:20 AM,300,691.7,146.05,202.57,1248,1192,99.22,55,200.78,56,23.43,41.52,3,8.67,31,56,583,33,59,22.24,4,3,9.97,24.78,13.45,On,On
+OF071822,Cage 5,3524501,Batch 1,Phase 1,4,9:16:20 AM,300,664.17,134.94,198.76,1189,1129,104.26,62,195.75,63,21.53,35.69,2,11.12,30,60,506,36,56,16.09,2,4,9.63,22.33,14.15,On,On
+OF071822,Cage 6,3524632,Batch 1,Phase 1,1,9:02:12 AM,300,464.78,121.6,139.7,796,762,144.09,51,155.91,52,16.52,61.01,2,6.16,16,34,365,11,17,5.67,1,1,7.27,19.06,11.3,On,On
+OF071822,Cage 6,3524632,Batch 1,Phase 1,2,9:07:12 AM,300,465.85,145.42,130.18,835,774,125.57,72,174.43,72,15.2,56.5,4,11.95,27,61,407,20,36,9.47,2,0,8.03,23.47,12.25,On,On
+OF071822,Cage 6,3524632,Batch 1,Phase 1,3,9:12:12 AM,300,447.65,79.38,130.81,871,810,125,75,175,75,16.52,39.4,1,10.02,35,61,386,23,41,10.48,3,0,8.72,24.14,12.63,On,On
+OF071822,Cage 6,3524632,Batch 1,Phase 1,4,9:17:12 AM,300,288.77,60.01,72.71,649,574,161.24,75,138.76,76,11.32,26.84,2,18.95,36,75,388,18,44,15.25,0,2,8.27,18.38,11.63,On,On
+OF071822,Cage 7,3524659,Batch 1,Phase 1,1,9:02:29 AM,300,490.7,154.94,136.21,779,755,156.85,48,143.16,49,24.04,64.96,6,3.52,11,24,378,7,10,1.45,2,1,6.78,17.55,7.8,On,On
+OF071822,Cage 7,3524659,Batch 1,Phase 1,2,9:07:29 AM,300,618.59,131.76,205.42,727,698,142.73,60,157.27,61,19.28,49.36,3,5.78,15,29,228,15,24,11.16,3,2,8.46,16.19,12.46,On,On
+OF071822,Cage 7,3524659,Batch 1,Phase 1,3,9:12:29 AM,300,606.02,153.35,144.78,755,717,126.2,65,173.8,66,21.28,52.15,5,7.33,19,38,175,19,44,13.88,2,3,7.42,16.05,11.07,On,On
+OF071822,Cage 7,3524659,Batch 1,Phase 1,4,9:17:29 AM,300,486.94,124.14,105.73,639,599,136.12,66,163.88,67,17.53,46.3,6,8.55,23,40,199,24,40,8.64,2,2,7.53,18.15,8.98,On,On
+OF071822,Cage 8,3524790,Batch 1,Phase 1,1,9:03:21 AM,300,661.94,220.66,201.3,977,933,103.6,56,196.4,57,26.21,59.28,4,5.17,22,44,453,19,30,9.77,2,4,7.81,19.85,10.18,On,On
+OF071822,Cage 8,3524790,Batch 1,Phase 1,2,9:08:21 AM,300,567.38,120.65,200.03,830,765,98.08,51,201.92,52,26.13,47.08,1,10.89,27,65,288,34,69,19.58,3,2,6.87,11.76,9.29,On,On
+OF071822,Cage 8,3524790,Batch 1,Phase 1,3,9:13:21 AM,300,688.97,167.64,190.82,927,871,102.56,58,197.44,59,27.56,45.75,3,10.66,26,56,275,44,71,18.46,1,3,8.03,18.45,12.23,On,On
+OF071822,Cage 8,3524790,Batch 1,Phase 1,4,9:18:21 AM,300,503.3,149.23,86.68,729,666,106.19,59,193.81,60,26.85,47.42,1,12.67,25,63,261,20,32,8.03,1,2,6.87,14.56,7.08,On,On
+OF071822,Cage 9,3524817,Batch 1,Phase 1,1,9:03:37 AM,300,567.73,176.85,165.42,1017,941,119.16,64,180.84,65,18.97,52.9,4,9.75,28,76,506,29,48,14.53,3,2,8.66,25.8,16.28,On,On
+OF071822,Cage 9,3524817,Batch 1,Phase 1,2,9:08:37 AM,300,362.95,74.93,101.92,718,653,125.45,67,174.55,67,17.49,59.16,1,12.58,33,65,300,17,29,11.78,3,0,6.74,17.02,9.89,On,On
+OF071822,Cage 9,3524817,Batch 1,Phase 1,3,9:13:37 AM,300,364.19,138.11,70.49,631,568,143.37,73,156.63,74,13.85,40.17,1,12.27,34,63,251,17,34,12.16,1,2,6.56,17.73,8.26,On,On
+OF071822,Cage 9,3524817,Batch 1,Phase 1,4,9:18:37 AM,300,207.42,79.06,35.24,497,424,173.64,86,126.36,87,7.02,73.53,1,17.73,32,73,249,5,10,4.67,1,0,6.23,18.07,10.27,On,On
+OF071822,Cage 10,3524420,Batch 1,Phase 1,1,9:04:21 AM,300,1351.32,350.2,370.52,2053,1965,33.75,24,266.25,25,33.95,64.37,1,7.95,32,88,1177,22,32,9.91,7,2,10.86,19.41,16.05,On,On
+OF071822,Cage 10,3524420,Batch 1,Phase 1,2,9:09:21 AM,300,790.49,173.99,207.33,1721,1618,55.59,32,244.41,33,24,62.93,1,11.39,41,103,1060,19,26,5.56,8,1,10.7,28.36,13.22,On,On
+OF071822,Cage 10,3524420,Batch 1,Phase 1,3,9:14:21 AM,300,595.02,164.15,143.19,1184,1094,96.92,51,203.1,52,19.27,54.69,4,15.25,46,90,547,27,35,5.34,2,1,8.98,19.37,12.52,On,On
+OF071822,Cage 10,3524420,Batch 1,Phase 1,4,9:19:21 AM,300,566.69,107.63,118.75,1227,1154,95.31,52,204.69,53,18.84,47.91,4,16.86,30,73,622,24,39,14.14,2,1,10.11,22.72,13.42,On,On
+OF071822,Cage 11,3524578,Batch 1,Phase 1,1,9:05:18 AM,300,827.82,263.21,241.3,1278,1237,65.71,37,234.29,38,34.41,52.33,1,6.31,22,41,714,29,47,13.41,3,2,9.08,19.32,11.22,On,On
+OF071822,Cage 11,3524578,Batch 1,Phase 1,2,9:10:18 AM,300,1053.59,288.29,299.09,1364,1335,79.06,50,220.94,51,35.3,54.28,3,2.75,15,29,574,36,44,13.3,8,1,12.23,22.91,17.28,On,On
+OF071822,Cage 11,3524578,Batch 1,Phase 1,3,9:15:18 AM,300,875.79,246.7,288.29,1134,1077,85.05,47,214.95,48,26.72,46.47,5,7.36,28,57,516,30,50,12.53,5,3,9.61,21.75,14.81,On,On
+OF071822,Cage 11,3524578,Batch 1,Phase 1,4,9:20:18 AM,300,522.02,79.69,185.1,799,727,146.63,72,153.37,73,16.74,48.67,3,13.19,26,72,319,24,36,9.87,6,0,10.06,21,14.1,On,On
+OF071822,Cage 12,3524293,Batch 1,Phase 1,1,9:06:17 AM,300,568.58,127,161.29,930,865,91.23,47,208.77,48,27.32,53.62,3,7.58,31,65,438,8,9,3.23,2,1,7.04,14.87,12.36,On,On
+OF071822,Cage 12,3524293,Batch 1,Phase 1,2,9:11:17 AM,300,424.49,73.66,80.01,694,621,102.82,57,197.19,58,19.74,51.95,4,18.86,24,73,264,12,19,4.8,1,2,6.47,13.55,7.9,On,On
+OF071822,Cage 12,3524293,Batch 1,Phase 1,3,9:16:17 AM,300,291.38,43.82,67.31,527,481,158.7,64,141.3,65,17.32,57,8,6.39,28,46,205,6,8,1.89,1,0,6.52,16.26,9.09,On,On
+OF071822,Cage 12,3524293,Batch 1,Phase 1,4,9:21:17 AM,300,310.55,49.53,52.07,525,499,167,66,133,67,19.81,55.25,5,4.87,18,26,139,8,11,3.13,0,0,6.29,16,7.05,On,On
+OF071822,Cage 1,3524320,Batch 2,Phase 1,1,9:48:11 AM,300,750.15,217.17,154.94,1014,965,54.13,36,245.87,37,26.22,52.75,2,10.59,21,49,455,25,45,8.58,2,3,8.07,21.08,9.69,On,On
+OF071822,Cage 1,3524320,Batch 2,Phase 1,2,9:53:11 AM,300,619.44,138.75,156.85,845,804,84.33,50,215.67,50,26.14,66.45,4,6.92,25,41,315,35,55,15.31,0,1,7.97,21.44,9.56,On,On
+OF071822,Cage 1,3524320,Batch 2,Phase 1,3,9:58:11 AM,300,648.35,152.08,148.59,888,820,76.33,42,223.67,43,25.92,60.81,0,9.7,34,68,358,29,66,16,3,2,8.08,21.26,11.44,On,On
+OF071822,Cage 1,3524320,Batch 2,Phase 1,4,10:03:11 AM,300,603.7,120.65,121.6,878,833,84.86,48,215.14,49,23.06,61.8,4,8.34,23,45,399,31,57,20.86,2,2,7.26,21.99,10.14,On,On
+OF071822,Cage 2,3524347,Batch 2,Phase 1,1,9:48:26 AM,300,295.91,51.44,76.52,644,594,152,52,148,52,14.5,75.71,3,6.01,25,50,325,4,5,2.58,2,1,6.39,18.96,8.51,On,On
+OF071822,Cage 2,3524347,Batch 2,Phase 1,2,9:53:26 AM,300,507.57,91.76,138.11,920,865,103.26,59,196.74,60,18.19,49.48,0,9.95,28,55,449,20,28,7.25,2,1,7.28,17.85,8.76,On,On
+OF071822,Cage 2,3524347,Batch 2,Phase 1,3,9:58:26 AM,300,373.24,72.39,84.14,650,600,118.3,62,181.7,63,14.67,40.59,4,12.52,25,50,224,10,16,8.11,0,1,4.95,20.31,6.65,On,On
+OF071822,Cage 2,3524347,Batch 2,Phase 1,4,10:03:26 AM,300,490.09,96.52,149.86,793,748,120.35,66,179.66,67,20.49,35.45,2,7.97,25,45,322,28,54,17.24,0,1,6.37,13.96,7.58,On,On
+OF071822,Cage 3,3524844,Batch 2,Phase 1,1,9:49:09 AM,300,552.76,155.68,209.87,931,887,106.07,41,193.93,42,23.23,48.13,2,10.17,24,44,437,11,15,4.45,2,2,7.65,19.94,16.98,On,On
+OF071822,Cage 3,3524844,Batch 2,Phase 1,2,9:54:09 AM,300,518.39,127.32,121.29,940,866,97.24,59,202.76,60,18.83,40.14,1,12.55,37,74,492,23,31,9.11,1,0,7,16.92,8.83,On,On
+OF071822,Cage 3,3524844,Batch 2,Phase 1,3,9:59:09 AM,300,400.9,106.05,70.17,891,810,86.05,51,213.95,52,15.74,60.97,3,15.95,37,81,529,29,39,13.83,0,1,6.73,16.39,8.14,On,On
+OF071822,Cage 3,3524844,Batch 2,Phase 1,4,10:04:09 AM,300,398.88,84.46,86.36,881,820,107.11,60,192.89,60,18.45,49.79,4,11.52,28,61,434,38,58,18.09,1,2,6.47,17.78,8.75,On,On
+OF071822,Cage 4,3524871,Batch 2,Phase 1,1,9:49:30 AM,300,330.34,96.52,78.42,680,630,147.08,43,152.92,44,16.1,74.27,5,9.72,22,50,390,4,5,1.23,2,0,6.46,16.53,19.06,On,On
+OF071822,Cage 4,3524871,Batch 2,Phase 1,2,9:54:30 AM,300,780.9,133.03,174.94,984,927,65.25,41,234.75,42,34.05,50.52,5,9.7,29,57,396,15,26,6.62,2,0,7.77,21.81,9.25,On,On
+OF071822,Cage 4,3524871,Batch 2,Phase 1,3,9:59:30 AM,300,611.8,164.15,173.04,915,849,81.13,46,218.87,47,28.05,47.12,4,10.92,30,66,421,21,27,8.64,3,0,8.03,17.32,13.39,On,On
+OF071822,Cage 4,3524871,Batch 2,Phase 1,4,10:04:30 AM,300,449.84,68.26,110.49,871,820,93.62,62,206.38,63,20.24,52.29,3,9.36,25,51,382,20,23,10.66,1,0,6.65,14.38,7.38,On,On
+OF071822,Cage 5,3524898,Batch 2,Phase 1,1,9:49:46 AM,300,166.5,38.42,53.66,391,358,184.36,56,115.64,57,8.3,39.04,3,7.99,18,33,145,2,3,0.94,0,2,4.09,11.62,7.22,On,On
+OF071822,Cage 5,3524898,Batch 2,Phase 1,2,9:54:46 AM,300,748.77,198.12,252.1,927,894,75.34,49,224.66,50,27.16,34.67,3,4.67,19,33,337,14,23,7.06,1,3,7.51,18.87,12.04,On,On
+OF071822,Cage 5,3524898,Batch 2,Phase 1,3,9:59:46 AM,300,720.23,203.52,167.96,1235,1168,55.9,38,244.1,39,26.37,56.48,4,10.19,31,67,669,20,28,5.97,1,5,7.89,19.84,10.33,On,On
+OF071822,Cage 5,3524898,Batch 2,Phase 1,4,10:04:46 AM,300,710.9,188.6,152.08,1172,1111,56.97,36,243.03,37,24.47,67.74,2,9.21,30,61,551,28,38,5.47,2,3,8.7,21.42,14.24,On,On
+OF071822,Cage 6,3524528,Batch 2,Phase 1,1,9:50:42 AM,300,332.32,86.36,97.16,723,676,136.33,36,163.67,37,19.7,73.46,3,5.63,21,47,330,10,16,2.45,2,2,5.95,11.18,3.39,On,On
+OF071822,Cage 6,3524528,Batch 2,Phase 1,2,9:55:42 AM,300,568.59,121.92,129.86,832,791,94.86,53,205.33,54,28.67,50.22,1,4.17,22,41,327,25,36,8.08,2,2,7.09,16.31,11.06,On,On
+OF071822,Cage 6,3524528,Batch 2,Phase 1,3,10:00:42 AM,300,490.17,120.65,99.38,738,653,107.31,55,192.69,56,20.25,58.23,4,18.8,38,85,343,24,31,7.3,1,2,7.6,19.23,12.84,On,On
+OF071822,Cage 6,3524528,Batch 2,Phase 1,4,10:05:42 AM,300,382.8,65.09,114.62,735,656,108.73,58,191.27,59,17.72,50.24,4,15.83,38,79,272,23,29,4.59,3,0,6.78,16.78,2.72,On,On
+OF071822,Cage 7,3524553,Batch 2,Phase 1,1,9:51:03 AM,300,288.5,88.58,112.08,697,630,162.8,54,137.2,55,12.3,57.01,2,13.01,27,67,392,2,1,0.41,2,0,6.7,14.73,11.51,On,On
+OF071822,Cage 7,3524553,Batch 2,Phase 1,2,9:56:03 AM,300,615.25,162.24,115.25,1174,1105,56.75,35,243.25,36,26.39,54.13,5,12.38,35,69,609,20,39,14.52,5,2,7.31,16.12,10.04,On,On
+OF071822,Cage 7,3524553,Batch 2,Phase 1,3,10:01:03 AM,300,541.15,164.47,128.91,1043,958,82.83,46,217.17,47,23.63,38.48,4,15.45,44,85,603,24,50,15.73,1,3,8.1,19.9,11.23,On,On
+OF071822,Cage 7,3524553,Batch 2,Phase 1,4,10:06:03 AM,300,337.35,77.47,62.87,936,832,81.24,47,218.76,48,19.99,41.57,2,15.75,51,104,584,30,48,17.86,0,1,6.12,15.4,7.79,On,On
+OF071822,Cage 8,3524686,Batch 2,Phase 1,1,9:52:03 AM,300,604.59,171.13,169.23,969,893,71.46,40,228.55,40,29.6,59.75,4,11.41,36,76,493,13,19,5.44,2,4,7.03,15.64,9.85,On,On
+OF071822,Cage 8,3524686,Batch 2,Phase 1,2,9:57:03 AM,300,623.97,179.07,133.99,894,854,105.55,55,194.45,56,23.63,56.63,2,4.16,20,40,343,25,44,14.31,1,3,8.07,19.11,10.69,On,On
+OF071822,Cage 8,3524686,Batch 2,Phase 1,3,10:02:03 AM,300,440.48,141.92,104.46,790,710,112.77,62,187.24,62,17.49,37.14,3,13.65,40,80,347,24,39,13.55,1,1,6.74,20.61,8.69,On,On
+OF071822,Cage 8,3524686,Batch 2,Phase 1,4,10:07:03 AM,300,556.15,170.82,149.54,767,727,114.85,60,185.15,61,22.06,53.62,2,8.23,21,40,195,35,63,21.5,1,1,7.73,15.68,10.16,On,On
+OF071822,Cage 9,3524711,Batch 2,Phase 1,1,9:52:20 AM,300,344.42,44.56,135.26,685,627,132.58,52,167.42,53,15.88,27.36,2,7.8,29,58,355,11,14,3.78,1,1,5.98,16.28,7,On,On
+OF071822,Cage 9,3524711,Batch 2,Phase 1,2,9:57:20 AM,300,622.97,134.3,136.53,1171,1119,60.86,39,239.14,40,25.22,55.06,2,7.02,28,52,621,43,68,18.5,2,2,7.88,16.64,11.69,On,On
+OF071822,Cage 9,3524711,Batch 2,Phase 1,3,10:02:20 AM,300,661.43,119.38,201.93,1046,1002,67.73,42,232.27,43,24.97,70.07,1,8.36,24,44,458,55,83,28.78,5,1,8.52,20.88,12.74,On,On
+OF071822,Cage 9,3524711,Batch 2,Phase 1,4,10:07:20 AM,300,462.15,72.39,136.84,746,692,122.33,66,177.67,66,19.77,29.77,4,9.78,23,54,282,31,51,16.66,0,1,6.85,18.53,10.39,On,On
+OF071822,Cage 10,3524763,Batch 2,Phase 1,1,9:53:09 AM,300,339.65,73.34,110.17,939,870,150.05,41,149.95,41,13.54,74.88,3,6.14,28,69,690,3,3,0.39,3,0,7.92,14.19,7.28,On,On
+OF071822,Cage 10,3524763,Batch 2,Phase 1,2,9:58:09 AM,300,388.78,91.12,82.55,1197,1094,74.69,37,225.32,37,14.93,65.82,1,13.98,42,103,775,25,45,13.97,1,1,7.52,15.47,10.85,On,On
+OF071822,Cage 10,3524763,Batch 2,Phase 1,3,10:03:09 AM,300,281.27,87,38.74,1045,934,78.03,34,221.97,35,15.78,69.69,2,17.56,51,111,663,30,64,18.56,0,0,7.11,14.45,9.12,On,On
+OF071822,Cage 10,3524763,Batch 2,Phase 1,4,10:08:09 AM,300,349.53,67.31,100.01,956,837,109.11,51,190.89,52,16.2,46.68,0,21.44,43,119,605,33,55,18.08,2,1,7.45,14.63,11.95,On,On
+OF071822,Cage 11,3524736,Batch 2,Phase 1,1,9:53:26 AM,300,327.62,75.78,76.2,618,543,136.72,52,163.28,53,16.42,66.92,7,14.74,37,75,335,1,1,0.08,1,1,5.43,13.69,7.79,On,On
+OF071822,Cage 11,3524736,Batch 2,Phase 1,2,9:58:26 AM,300,497.6,107.95,111.13,764,714,96,50,204,51,25.31,54.57,1,8.28,27,50,291,20,30,5.89,1,1,6.59,17.87,7.38,On,On
+OF071822,Cage 11,3524736,Batch 2,Phase 1,3,10:03:26 AM,300,528.8,113.03,102.24,771,739,81.31,47,218.69,47,29.23,66.37,5,6.54,17,32,226,17,34,6.52,0,2,5.84,16.33,7.82,On,On
+OF071822,Cage 11,3524736,Batch 2,Phase 1,4,10:08:26 AM,300,584.21,118.11,132.4,776,735,74.86,45,225.14,46,26.29,53.37,4,6.88,24,41,279,11,22,3.87,2,0,6.62,15.82,9.58,On,On
+OF071822,Cage 12,3524605,Batch 2,Phase 1,1,9:54:30 AM,300,472.66,108.59,107.95,1039,979,99.06,45,200.94,46,21.71,62.03,6,7.76,26,60,640,12,20,6.08,1,5,7.63,16.78,10.99,On,On
+OF071822,Cage 12,3524605,Batch 2,Phase 1,2,9:59:30 AM,300,738.32,162.24,161.61,1350,1296,63,34,237,35,29.37,70.07,3,4.94,25,54,707,36,61,24.99,2,2,8.98,24.59,12.98,On,On
+OF071822,Cage 12,3524605,Batch 2,Phase 1,3,10:04:30 AM,300,616.82,158.75,157.48,1148,1050,68.75,38,231.25,39,25.09,56.54,4,12.42,46,98,620,29,55,21.78,1,1,8.06,28.11,9.25,On,On
+OF071822,Cage 12,3524605,Batch 2,Phase 1,4,10:09:30 AM,300,799.86,187.01,176.53,1280,1211,72.84,40,227.16,40,31.42,61.11,1,9.88,32,69,629,57,107,31.07,0,6,9.12,20.26,13.53,On,On
+OF071822,Cage 1,3524447,Batch 3,Phase 1,1,10:13:36 AM,300,604.27,108.9,110.17,951,904,108.91,40,191.09,41,25.45,62.59,5,5.39,23,47,532,24,34,4.97,0,2,7.43,16.67,10.73,On,On
+OF071822,Cage 1,3524447,Batch 3,Phase 1,2,10:18:36 AM,300,528.84,78.74,113.03,812,765,122.69,67,177.31,68,21.69,55.94,1,6.95,23,47,365,23,53,13.47,1,2,8.56,18.25,11.14,On,On
+OF071822,Cage 1,3524447,Batch 3,Phase 1,3,10:23:36 AM,300,614.5,146.69,100.97,797,727,110.78,63,189.22,64,23.25,70.32,2,14.19,35,70,361,34,67,13.97,2,1,8.43,16.75,11.74,On,On
+OF071822,Cage 1,3524447,Batch 3,Phase 1,4,10:28:36 AM,300,646.94,162.24,122.24,716,662,120.64,54,179.36,55,20.45,56.84,1,13.4,24,54,242,29,49,10.65,4,1,9.17,20.95,14.06,On,On
